@@ -1,0 +1,39 @@
+.item-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.item-wrapper .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.item-wrapper .item .title {
+  font-family: "Playfair Display", serif;
+  flex-grow: 1;
+  font-size: 18px;
+}
+.item-wrapper .item .space {
+  flex-basis: 1;
+  overflow: hidden;
+  flex: 20;
+  flex-shrink: 4;
+  align-self: felx-end;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 16px;
+  border-bottom: 1px dotted black;
+  font-size: 0px;
+}
+.item-wrapper .item .price {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  min-width: 60px;
+  align-self: felx-end;
+}
+.item-wrapper .description {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  width: 80%;
+}
